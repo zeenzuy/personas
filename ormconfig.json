@@ -1,0 +1,13 @@
+{
+    "name":"default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "111214",
+    "schema": "public",
+    "database": "postgres",
+    "synchronize": true,
+    "entities": ["src/models/*.ts"]
+}
+
